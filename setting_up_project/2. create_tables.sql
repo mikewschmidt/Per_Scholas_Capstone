@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_branch (
 	BRANCH_CITY varchar(50),
 	BRANCH_STATE char(2),
 	BRANCH_ZIP int,
-	BRANCH_PHONE char(11),
+	BRANCH_PHONE char(15cdw_sapp_branch),
 	LAST_UPDATED timestamp
 );
 
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_branch (
 	'CUST_PHONE': 1237818, 'CUST_EMAIL': 'AHooper@example.com', 'LAST_UPDATED': '2018-04-21T12:49:02.000-04:00'}
 */
 CREATE TABLE IF NOT EXISTS cdw_sapp_customer (
-	SSN int ,
+	SSN int PRIMARY KEY,
     FIRST_NAME varchar(50),
 	MIDDLE_NAME varchar(50),
 	LAST_NAME varchar(50),
