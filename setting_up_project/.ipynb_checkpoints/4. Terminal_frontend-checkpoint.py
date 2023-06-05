@@ -1,9 +1,5 @@
 
-def get_menu():
-    user_input = input("Choose from the options below:\n" +
-                       "1) Display Transactions\n" +
-                       "q) quit\n")
-    return user_input
+import mariadb
 
 
 def get_month():
@@ -69,6 +65,27 @@ def get_trans_type():
                 user_input = ""
                 print_bad_response(user_input)
     return user_input
+
+
+def query_db(query):
+    try:
+        conn = mariadb.connect(
+            user='michaelwschmidt_cc_capstone',
+            password='password1',
+            host='65.19.141.77',
+            port='3306',
+            database='michaelwschmidt_creditcard_capstone')
+        cur = conn.cursor()
+        # cur.execute(query)
+        # rows = cur.fetchall()
+        conn.close()
+
+    except mariadb.Error as e:
+        print(f"ERROR connecting to MariaDB:  {e}")
+
+    finally:
+        conn.close()
+        # return rows
 
 
 def print_bad_response(user_input):
@@ -152,6 +169,8 @@ while user_input == "":
             # display the transactions made by a customer between two dates
 
         case 'q':
+            query = "SELECT * FROM cdw_sapp_customer"
+            print(query_db(query))
             exit()
 
         case _:

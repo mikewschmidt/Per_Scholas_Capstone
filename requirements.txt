@@ -1,0 +1,10 @@
+
+findspark
+matplotlib
+matplotlib-inline
+pandas
+mariadb
+SQLAlchemy
+pyspark
+seaborn
+tabulate
