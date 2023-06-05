@@ -27,6 +27,6 @@
    
    
 ### Technical Challenges
-1. Connection to the remote database caused many headaches. I searched for a few different libraries to import and jdbc drivers to download, then tried the different connection string/snippets to connect with.
+1. Connection to the remote database caused many headaches I tried all the mySQL options on the MariaDB database, but I found there was issues. I searched for a few different libraries to import and jdbc drivers to download, then tried the different connection string/snippets to connect with.
 
 2.    
