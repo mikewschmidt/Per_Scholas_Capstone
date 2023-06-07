@@ -19,6 +19,14 @@
    i. Updated the database tables to reflect the transformations
    c. Load into database
 
-4. Create a "front-end" terminal menu
+4. Created the Queries for the front-end terminal app
+
+5. Create a "front-end" terminal menu
    a. For displaying aggragated information about transactions
    b. For displaying and modifying users information
+   
+   
+### Technical Challenges
+1. Connection to the remote database caused many headaches I tried all the mySQL options on the MariaDB database, but I found there was issues. I searched for a few different libraries to import and jdbc drivers to download, then tried the different connection string/snippets to connect with.
+
+2.    
