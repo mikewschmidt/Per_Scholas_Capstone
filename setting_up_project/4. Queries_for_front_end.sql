@@ -49,6 +49,16 @@ WHERE ssn = 123454487
 ;
 
 -- Query 6: Used to generate a monthly bill for a credit card number for a given month and year.
+-- Get customer information to display once
+SELECT * FROM cdw_sapp_customer WHERE credit_card_no=4210653349028689;
+
+-- Get transactions for a given month and year
+SELECT * FROM cdw_sapp_credit_card
+WHERE c.credit_card_no = 4210653349028689
+AND SUBSTR(timeid, 1, 4) = 2018
+AND SUBSTR(timeid, 5, 2) = 10
+;
+/****  Do not need this query  ****
 SELECT first_name, middle_name, last_name, cust_email,
 		full_street_address, cust_city, cust_state, cust_zip, cust_country
 		cust_ssn, cc.credit_card_no, 
@@ -60,13 +70,14 @@ WHERE c.credit_card_no = 4210653349028689
 AND SUBSTR(timeid, 1, 4) = 2018
 AND SUBSTR(timeid, 5, 2) = 10
 ;
+*/
 
 
 -- Query 7: Used to display the transactions made by a customer between two dates. Order by year, month, and day in descending order.
-SELECT *
+SELECT  TIMEID, CREDIT_CARD_NO, CUST_SSN, BRANCH_CODE, TRANSACTION_TYPE, TRANSACTION_VALUE 
 FROM cdw_sapp_credit_card
 WHERE cust_ssn = 123459988
-AND TIMEID BETWEEN '20180101' AND '201810522'
+AND TIMEID BETWEEN '20180101' AND '20180522'
 ORDER BY TIMEID 
 ;
 

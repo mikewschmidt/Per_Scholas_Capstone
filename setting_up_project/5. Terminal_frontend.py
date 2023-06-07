@@ -176,14 +176,15 @@ def generate_bill(cc_num, year, month):
         f"SELECT * FROM cdw_sapp_customer WHERE credit_card_no={cc_num}", False)
     print("cust_df:   ", cust_df)
     # Get transactions for a given month and year
-    '''
+
     trans_df = query_db(f"SELECT * FROM cdw_sapp_credit_card \
                             WHERE credit_card_no = {cc_num} \
                             AND SUBSTR(timeid, 1, 4) = {year} \
                             AND SUBSTR(timeid, 5, 2) = {month}", False)
-    '''
+    trans_df = trans_df.drop("TRANSACTION_ID", axis=1)
+
     # Display customer information
-    width = 90
+    width = 108
     cust_name = [cust_df.iloc[0]["FIRST_NAME"], cust_df.iloc[0]
                  ["MIDDLE_NAME"], cust_df.iloc[0]["LAST_NAME"]]
     address = [cust_df.iloc[0]["FULL_STREET_ADDRESS"], cust_df.iloc[0]
@@ -195,12 +196,18 @@ def generate_bill(cc_num, year, month):
         return (width-len("".join(l_var)))//2
 
     print("="*width)
-    print("||")
-    print("||", " "*offset(cust_name), *cust_name)
-    print("||", " "*offset(address), *address)
-    print("||", " "*offset(contact), *contact)
-    print("||")
-    print("-"*width)
+    print()
+    print(" "*offset(cust_name), *cust_name)
+    print(" "*offset(address), *address)
+    print(" "*offset(contact), *contact)
+    print()
+    print("="*width)
+    print(tabulate(trans_df, headers='keys', tablefmt='grid'))
+    print("="*width, "\n")
+    print(
+        tabulate(["   YOUR TOTAL BILL FOR THIS MONTH IS: ", " "*15+"$XXXXX"], tablefmt='plain'))
+    print()
+    print("="*width, "\n")
 
 
 def print_bad_response(user_input):

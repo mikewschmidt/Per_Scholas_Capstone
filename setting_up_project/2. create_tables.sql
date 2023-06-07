@@ -19,8 +19,8 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_branch (
 	BRANCH_STREET varchar(50),
 	BRANCH_CITY varchar(50),
 	BRANCH_STATE char(2),
-	BRANCH_ZIP int,
-	BRANCH_PHONE char(15cdw_sapp_branch),
+	BRANCH_ZIP char(5),
+	BRANCH_PHONE char(15),
 	LAST_UPDATED timestamp
 );
 
@@ -63,10 +63,10 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_credit_card (
 	-- MONTH 				int,
 	-- YEAR 				int,
 	CREDIT_CARD_NO 		char(16),
-	CUST_SSN 			char(9),
+	CUST_SSN 			int,
 	BRANCH_CODE 		int,
 	TRANSACTION_TYPE 	varchar(50),
-	TRANSACTION_VALUE	decimal,
+	TRANSACTION_VALUE	decimal(65,2),
 	FOREIGN KEY (BRANCH_CODE) REFERENCES cdw_sapp_branch (BRANCH_CODE)
 		ON DELETE CASCADE
         ON UPDATE CASCADE,
