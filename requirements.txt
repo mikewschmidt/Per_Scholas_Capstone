@@ -7,4 +7,6 @@ mariadb
 SQLAlchemy
 pyspark
 seaborn
+folium
 tabulate
+requests
