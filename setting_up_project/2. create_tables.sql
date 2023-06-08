@@ -85,7 +85,7 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_loan_application (
 	Application_ID varchar(10),
 	Gender varchar(10),
 	Married char(3),
-	Dependents int,
+	Dependents varchar(3),
 	Education varchar(15),
 	Self_Employed varchar(3),
 	Credit_History int,
