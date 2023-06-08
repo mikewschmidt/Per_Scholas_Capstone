@@ -1,9 +1,8 @@
-DROP TABLE IF EXISTS loans;
 
 DROP TABLE IF EXISTS cdw_sapp_credit_card;
 DROP TABLE IF EXISTS cdw_sapp_customer;
 DROP TABLE IF EXISTS cdw_sapp_branch;
-
+DROP TABLE IF EXISTS cdw_sapp_loan_application;
 
 
 
@@ -82,7 +81,7 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_credit_card (
     'Education': 'Graduate', 'Self_Employed': 'No', 'Credit_History': 1, 
     'Property_Area': 'Urban', 'Income': 'medium', 'Application_Status': 'Y'}
 */
-CREATE TABLE IF NOT EXISTS loans (
+CREATE TABLE IF NOT EXISTS cdw_sapp_loan_application (
 	Application_ID varchar(10),
 	Gender varchar(10),
 	Married char(3),
