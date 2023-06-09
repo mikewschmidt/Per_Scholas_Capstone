@@ -14,10 +14,10 @@
 2. Created a database and tables
 
 3. Write ETL code:
-   Extract data from datafiles and API
-   b. Write transformation code with PySpark
-   d. Updated the database tables to reflect the transformations
-   e. Load into database
+   - Extract data from datafiles and API
+   Write transformation code with PySpark
+   Updated the database tables to reflect the transformations
+   Load into database
 
 4. Create a "front-end" terminal menu
    a. Created the Queries for the front-end terminal app
