@@ -36,7 +36,16 @@ The data is mock data for banks, customers, credit card transactions and loan ap
    - Charts and graphs for the data files
    - Charts and graphs for loan API data
    
-
+### Technologies
+The following technologies were used for this project:
+   - GitHub
+   - Visual Studio Code
+   - Python
+      - Libraries: pandas, pyspark, requests, tabulate, matplotlib, folium, mariadb
+   - SQL
+   - MariaDB
+   - Jupyter Notebook
+   
    
    
 ### Technical Challenges
