@@ -14,19 +14,24 @@
 2. Created a database and tables
 
 3. Write ETL code:
-   a. Extract data from datafiles and API
+   Extract data from datafiles and API
    b. Write transformation code with PySpark
-   i. Updated the database tables to reflect the transformations
-   c. Load into database
+   d. Updated the database tables to reflect the transformations
+   e. Load into database
 
-4. Created the Queries for the front-end terminal app
+4. Create a "front-end" terminal menu
+   a. Created the Queries for the front-end terminal app
+   b. For displaying aggregated information about transactions
+   c. For displaying and modifying users information
+   
+5. Data Analysis and Visualization
+   a. Charts and graphs for the data files
+   b. Charts and graphs  
+   
 
-5. Create a "front-end" terminal menu
-   a. For displaying aggragated information about transactions
-   b. For displaying and modifying users information
    
    
 ### Technical Challenges
 1. Connection to the remote database caused many headaches I tried all the mySQL options on the MariaDB database, but I found there was issues. I searched for a few different libraries to import and jdbc drivers to download, then tried the different connection string/snippets to connect with.
 
-2.    
+2. The overall challenge was to fullfill the requirements with the data that was given. Some of the data needed some modifications to make it work.      
