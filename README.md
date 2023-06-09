@@ -1,7 +1,8 @@
-# Capstone Project for Per Scholas
+# Data Engineering capstone project for Per Scholas 
 
 ### Overview
-test
+Created a data pipeline to extract the data from data files and an API end-point, transform the data and load it into a remote database.
+The data is mock data for banks, customers, credit card transactions and loan application data.
 
 ### Raw data used
 
