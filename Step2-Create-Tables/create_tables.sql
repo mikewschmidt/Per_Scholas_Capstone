@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_customer (
 	CUST_STATE char(2),
 	CUST_COUNTRY varchar(50),
 	CUST_ZIP char(5),
-	CUST_PHONE varchar(11),
+	CUST_PHONE varchar(15),
 	CUST_EMAIL varchar(100),
 	LAST_UPDATED timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL
 );
