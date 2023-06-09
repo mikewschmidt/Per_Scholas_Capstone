@@ -3,8 +3,12 @@
 ### Raw data used
 
 [3 json files](https://drive.google.com/drive/folders/1J4a2UndLvVWszHAL2VxJeVXyAHm3xYIp?usp=sharing)
+   - CDW_SAPP_CUSTOMER.JSON: This file has the existing customer details.
+   - CDW_SAPP_CREDITCARD.JSON: This file contains all credit card transaction information.
+   - CDW_SAPP_BRANCH.JSON: Each branch’s information and details are recorded in this file. 
 
 [API json location](https://raw.githubusercontent.com/platformps/LoanDataset/main/loan_data.json)
+   - This dataset has all of the required fields for a loan application.
 
 ### Steps to working on Project
 
