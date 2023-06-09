@@ -1,5 +1,8 @@
 # Capstone Project for Per Scholas
 
+### Overview
+test
+
 ### Raw data used
 
 [3 json files](https://drive.google.com/drive/folders/1J4a2UndLvVWszHAL2VxJeVXyAHm3xYIp?usp=sharing)
@@ -30,7 +33,7 @@
    
 5. Data Analysis and Visualization
    - Charts and graphs for the data files
-   - Charts and graphs  
+   - Charts and graphs for loan API data
    
 
    
