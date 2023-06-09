@@ -34,4 +34,4 @@
 ### Technical Challenges
 1. Connection to the remote database caused many headaches I tried all the mySQL options on the MariaDB database, but I found there was issues. I searched for a few different libraries to import and jdbc drivers to download, then tried the different connection string/snippets to connect with.
 
-2. The overall challenge was to fullfill the requirements with the data that was given. Some of the data needed some modifications to make it work.      
+2. The overall challenge was to fullfill the requirements with the data that was given. Resolved it by modifying the data to make it work.    
