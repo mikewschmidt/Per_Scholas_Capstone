@@ -9,24 +9,24 @@
 ### Steps to working on Project
 
 1. Downloaded and explored the data
-   a. Used the column names and length of the data to create the tables
+   - Used the column names and length of the data to create the tables
 
 2. Created a database and tables
 
 3. Write ETL code:
    - Extract data from datafiles and API
-   Write transformation code with PySpark
-   Updated the database tables to reflect the transformations
-   Load into database
+   - Write transformation code with PySpark
+   - Updated the database tables to reflect the transformations
+   - Load into database
 
 4. Create a "front-end" terminal menu
-   a. Created the Queries for the front-end terminal app
-   b. For displaying aggregated information about transactions
-   c. For displaying and modifying users information
+   - Created the Queries for the front-end terminal app
+   - For displaying aggregated information about transactions
+   - For displaying and modifying users information
    
 5. Data Analysis and Visualization
-   a. Charts and graphs for the data files
-   b. Charts and graphs  
+   - Charts and graphs for the data files
+   - Charts and graphs  
    
 
    
