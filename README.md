@@ -1,8 +1,8 @@
 # Data Engineering capstone project for Per Scholas 
 
 ### Overview
-Created a data pipeline to extract the data from data files and an API end-point, transform the data and load it into a remote database.
-The data is mock data for banks, customers, credit card transactions and loan application data.
+Created a data pipeline to extract the data from data files and an API end-point, transform the data, and load it into a remote database.
+The data is mock data for banks, customers, credit card transactions, and loan application data.
 
 ### Raw data used
 
@@ -25,30 +25,32 @@ The data is mock data for banks, customers, credit card transactions and loan ap
    - Extract data from datafiles and API
    - Write transformation code with PySpark
    - Updated the database tables to reflect the transformations
-   - Load into database
+   - Load into the database
 
 4. Create a "front-end" terminal menu
    - Created the Queries for the front-end terminal app
    - For displaying aggregated information about transactions
-   - For displaying and modifying users information
+   - For displaying and modifying users' information
    
 5. Data Analysis and Visualization
    - Charts and graphs for the data files
    - Charts and graphs for loan API data
+   - Created Visualizations in Tableau
    
 ### Technologies
 The following technologies were used for this project:
    - GitHub
    - Visual Studio Code
    - Python
-      - Libraries: pandas, pyspark, requests, tabulate, matplotlib, folium, mariadb
+      - Libraries: pandas, pyspark, requests, tabulate, matplotlib, folium, mariadb, tabulate
    - SQL
    - MariaDB
    - Jupyter Notebook
+   - Tableau
    
    
    
 ### Technical Challenges
-1. Connection to the remote database caused many headaches I tried all the mySQL options on the MariaDB database, but I found there was issues. I searched for a few different libraries to import and jdbc drivers to download, then tried the different connection string/snippets to connect with.
+1. Connection to the remote database caused many headaches I tried all the mySQL options on the MariaDB database, but I found there were issues. I searched for a few different libraries to import and JDBC drivers to download, then tried the various connection strings/snippets to connect with.
 
-2. The overall challenge was to fullfill the requirements with the data that was given. Resolved it by modifying the data to make it work.    
+2. The overall challenge was to fulfill the requirements with the data that was given and resolved it by modifying the data to make it work.    
