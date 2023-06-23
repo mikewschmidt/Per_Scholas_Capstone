@@ -1,7 +1,7 @@
 
 import pandas as pd
-import mariadb
 import sqlalchemy
+from sqlalchemy import text, engine, create_engine
 from tabulate import tabulate
 import os
 import time
@@ -78,28 +78,24 @@ def get_trans_type():
 
 
 def query_db(query, printable=True, transpose=False):
-    # os.system('clear')
     try:
         df = pd.DataFrame()
+
+        with open('../.secrets', 'r') as f:
+            CREDITCARD_CAPSTONE_PASSWORD = f.read()
+
         user = "michaelwschmidt_cc_capstone"
-        password = os.environ.get("CREDITCARD_CAPSTONE_PASSWORD")
+        password = CREDITCARD_CAPSTONE_PASSWORD
         host = "tommy2.heliohost.org"
         port = "3306"
         database = "michaelwschmidt_creditcard_capstone"
         print()
 
-        conn = mariadb.connect(
-            user="michaelwschmidt_cc_capstone",
-            password=password,
-            host="tommy2.heliohost.org",
-            port=3306,
-            database="michaelwschmidt_creditcard_capstone"
-        )
+        engine = sqlalchemy.create_engine(
+            f"mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}")
 
-        cur = conn.cursor()
-        cur.execute(query)
-        # rows = cur.fetchall()
-        df = pd.read_sql_query(query, conn)
+        with engine.connect() as conn:
+            df = pd.read_sql_query(query, conn)
 
         if printable and transpose:
             print(tabulate(df.transpose().reset_index(), tablefmt='fancy_grid'))
@@ -109,12 +105,11 @@ def query_db(query, printable=True, transpose=False):
             print(tabulate(df, headers='keys', tablefmt='fancy_grid'))
             print("\n", "="*50, "\n\n")
 
-    except mariadb.Error as e:
-        print(f"ERROR connecting to MariaDB:  {e}")
+    except Exception as e:
+        print(f"ERROR connecting to remote MariaDB:  {e}")
 
     finally:
         time.sleep(5)
-        conn.close()
         if not df.empty:
             return df
         else:
@@ -152,7 +147,10 @@ def update_cust_db(ssn):
             print("I do NOT understand the input, Please Try again....")
             continue
 
+        # Check if the number is between 0-10 since those are the only columns
         if user_input < 0 or user_input > 10:
+            print("NOT in range please choose between 0 - 10")
+            time.sleep(5)
             continue
 
         print("\n\nEnter a new value: ('q' to quit)")
@@ -161,26 +159,37 @@ def update_cust_db(ssn):
         new_item = input(f"| {user_input} | {col_name} |  ")
         if new_item == 'q':
             break
-        print(f"Updating database item: {col_name} with {user_input}")
+        print(f"Updating database item: {col_name} with {new_item}")
 
-        # Connect to the database
+        # Connect to the database update table
         try:
-            password = os.environ.get("CREDITCARD_CAPSTONE_PASSWORD")
-            conn = mariadb.connect(user="michaelwschmidt_cc_capstone",
-                                   password=password, host="tommy2.heliohost.org",
-                                   port=3306, database="michaelwschmidt_creditcard_capstone"
-                                   )
-            cur = conn.cursor()
+            with open('../.secrets', 'r') as f:
+                CREDITCARD_CAPSTONE_PASSWORD = f.read()
+
+            user = "michaelwschmidt_cc_capstone"
+            password = CREDITCARD_CAPSTONE_PASSWORD
+            host = "mikey.helioho.st"
+            port = "3306"
+            database = "michaelwschmidt_creditcard_capstone"
+
+            engine = sqlalchemy.create_engine(
+                f"mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}")
+
+            # cur = conn.cursor()
             # Create update statement
             query = f"UPDATE cdw_sapp_customer \
                         SET {col_name} = '{new_item}', \
                         last_updated = CURRENT_TIMESTAMP \
                         WHERE ssn = {ssn}"
-            cur.execute(query)
-            conn.commit()
+            # cur.execute(query)
+            with engine.connect() as conn:
+                conn.execute(text(query))
+            # conn.commit()
         finally:
-            conn.close()
-    # Clear screen because exiting customer updating function (update_cust_db)
+            pass
+            # conn.close()
+
+            # Clear screen because exiting this function (update_cust_db)
     os.system('clear')
 
 
