@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_customer (
 	CUST_STATE char(2),
 	CUST_COUNTRY varchar(50),
 	CUST_ZIP char(5),
-	CUST_PHONE varchar(11),
+	CUST_PHONE varchar(15),
 	CUST_EMAIL varchar(100),
 	LAST_UPDATED timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL
 );
@@ -85,7 +85,7 @@ CREATE TABLE IF NOT EXISTS cdw_sapp_loan_application (
 	Application_ID varchar(10),
 	Gender varchar(10),
 	Married char(3),
-	Dependents int,
+	Dependents varchar(3),
 	Education varchar(15),
 	Self_Employed varchar(3),
 	Credit_History int,

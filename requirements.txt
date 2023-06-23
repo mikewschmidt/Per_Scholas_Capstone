@@ -4,9 +4,12 @@ matplotlib
 matplotlib-inline
 pandas
 mariadb
+mysql-connector-python
 SQLAlchemy
 pyspark
 seaborn
 folium
 tabulate
 requests
+time
+datetime
