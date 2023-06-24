@@ -99,11 +99,11 @@ def query_db(query, printable=True, transpose=False):
 
         if printable and transpose:
             print(tabulate(df.transpose().reset_index(), tablefmt='fancy_grid'))
-            print("\n", "="*50, "\n\n")
+            print("\n", "="*69, "\n\n")
 
         elif printable:
             print(tabulate(df, headers='keys', tablefmt='fancy_grid'))
-            print("\n", "="*50, "\n\n")
+            print("\n", "="*69, "\n\n")
 
     except Exception as e:
         print(f"ERROR connecting to remote MariaDB:  {e}")
@@ -128,6 +128,8 @@ def update_cust_db(ssn):
                         FROM cdw_sapp_customer \
                         WHERE ssn = {ssn}", False)
 
+        # print("Results dataframe: \n", results)
+        # time.sleep(2)
         os.system('clear')
         print("=======================================================")
         print("WHICH ITEM DO YOU WANT TO MODIFY? ('q' to quit)")
@@ -175,19 +177,21 @@ def update_cust_db(ssn):
             engine = sqlalchemy.create_engine(
                 f"mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}")
 
-            # cur = conn.cursor()
             # Create update statement
             query = f"UPDATE cdw_sapp_customer \
                         SET {col_name} = '{new_item}', \
                         last_updated = CURRENT_TIMESTAMP \
                         WHERE ssn = {ssn}"
-            # cur.execute(query)
+
+            # Connect to the database and execute update statement
             with engine.connect() as conn:
-                conn.execute(text(query))
-            # conn.commit()
+                with conn.begin():
+                    conn.execute(text(query))
+        except Exception as e:
+            print("Something went sideways!", e)
+
         finally:
             pass
-            # conn.close()
 
             # Clear screen because exiting this function (update_cust_db)
     os.system('clear')
@@ -318,12 +322,26 @@ def main():
             # display the total number and total values of transactions for branches in a given state.
             case '3':
                 state = get_str_input('State', 2)
+                os.system('clear')
+                print("="*61)
+                print("="*20, f"TOTAL FOR ALL OF {state}", "="*20)
+                print("="*61)
                 query_db(f"SELECT Branch_State, count(branch_state) Total_Transactions, sum(cc.transaction_value) Total_Value \
                             FROM cdw_sapp_branch b \
                             JOIN cdw_sapp_credit_card cc \
                                 ON b.branch_code = cc.BRANCH_CODE \
                             WHERE b.branch_state = '{state}' \
                             GROUP BY branch_state")
+
+                print("="*69)
+                print("="*20, f"TOTAL FOR EACH BRANCH IN {state}", "="*20)
+                print("="*69)
+                query_db(f"SELECT b.branch_code, Branch_State , count(branch_state) Total_Transactions, sum(cc.transaction_value) Total_Value \
+                            FROM cdw_sapp_branch b \
+                            JOIN cdw_sapp_credit_card cc \
+                                ON b.branch_code = cc.BRANCH_CODE \
+                            WHERE b.branch_state = '{state}' \
+                            GROUP BY branch_code, branch_state")
                 ##########  CALL FUNCTION TO QUERY DATABASE!!! ###########
                 # Display total number of transactions for branches in a given state
                 # Display total values of transactions for branches in a given state
