@@ -1,8 +1,10 @@
 # Data Engineering capstone project for Per Scholas 
 
 ### Overview
-Created a data pipeline to extract the data from data files and an API end-point, transform the data, and load it into a remote database.
+Created a data pipeline to extract the data from data files and an API end-point, transform the data, and load it into a remote database. Then I created a Python terminal application to interact with the data. Finally, the data is visualized.
 The data is mock data for banks, customers, credit card transactions, and loan application data.
+
+![dataflow diagram](https://github.com/mikewschmidt/Per_Scholas_Capstone/blob/master/data_files/workflow_diagram.jpg)
 
 ### Raw data used
 
@@ -35,14 +37,14 @@ The data is mock data for banks, customers, credit card transactions, and loan a
 5. Data Analysis and Visualization
    - Charts and graphs for the data files
    - Charts and graphs for loan API data
-   - Created Visualizations in Tableau
+   - Created Visualizations in Tableau ([See on Tableau Public](https://public.tableau.com/app/profile/mikewschmidt/viz/Per_Scholas_Capstone/Story1?publish=yes) or [see the PDF screenshots](https://github.com/mikewschmidt/Per_Scholas_Capstone/blob/master/data_files/Per_Scholas_Capstone_visualizations_story.pdf))
    
 ### Technologies
 The following technologies were used for this project:
    - GitHub
    - Visual Studio Code
    - Python
-      - Libraries: pandas, pyspark, requests, tabulate, matplotlib, folium, mariadb, tabulate
+      - Libraries: pandas, pyspark, requests, tabulate, matplotlib, folium, mariadb, SQLAlchemy, tabulate
    - SQL
    - MariaDB
    - Jupyter Notebook
@@ -53,4 +55,6 @@ The following technologies were used for this project:
 ### Technical Challenges
 1. Connection to the remote database caused many headaches I tried all the mySQL options on the MariaDB database, but I found there were issues. I searched for a few different libraries to import and JDBC drivers to download, then tried the various connection strings/snippets to connect with.
 
-2. The overall challenge was to fulfill the requirements with the data that was given and resolved it by modifying the data to make it work.    
+2. The longest part of the capstone was to create the Python terminal application and to get that working right.
+
+3. I did have issues with the remote database for a few days while creating and testing the visuals, so I did create a local database as well.    
