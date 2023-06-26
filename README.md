@@ -55,4 +55,6 @@ The following technologies were used for this project:
 ### Technical Challenges
 1. Connection to the remote database caused many headaches I tried all the mySQL options on the MariaDB database, but I found there were issues. I searched for a few different libraries to import and JDBC drivers to download, then tried the various connection strings/snippets to connect with.
 
-2. The overall challenge was to fulfill the requirements with the data that was given and resolved it by modifying the data to make it work.    
+2. The longest part of the capstone was to create the Python terminal application and to get that working right.
+
+3. I did have issues with the remote database for a few days while creating and testing the visuals, so I did create a local database as well.    
