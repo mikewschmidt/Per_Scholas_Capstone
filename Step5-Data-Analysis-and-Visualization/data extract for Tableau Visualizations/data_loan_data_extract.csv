@@ -1,0 +1,512 @@
+﻿Application ID,Application Status,Application Status (copy),Dependents,Education,Gender,Income,Married,Property Area,Self Employed,Credit History
+LP001002,Approved,Approved,0,Graduate,Male,medium,No,Urban,No,1
+LP001003,Rejected,Rejected,1,Graduate,Male,medium,Yes,Rural,No,1
+LP001005,Approved,Approved,0,Graduate,Male,low,Yes,Urban,Yes,1
+LP001006,Approved,Approved,0,Not Graduate,Male,low,Yes,Urban,No,1
+LP001008,Approved,Approved,0,Graduate,Male,medium,No,Urban,No,1
+LP001011,Approved,Approved,2,Graduate,Male,medium,Yes,Urban,Yes,1
+LP001013,Approved,Approved,0,Not Graduate,Male,low,Yes,Urban,No,1
+LP001014,Rejected,Rejected,3+,Graduate,Male,low,Yes,Semiurban,No,0
+LP001018,Approved,Approved,2,Graduate,Male,medium,Yes,Urban,No,1
+LP001020,Rejected,Rejected,1,Graduate,Male,high,Yes,Semiurban,No,1
+LP001024,Approved,Approved,2,Graduate,Male,low,Yes,Urban,No,1
+LP001028,Approved,Approved,2,Graduate,Male,low,Yes,Urban,No,1
+LP001029,Rejected,Rejected,0,Graduate,Male,low,No,Rural,No,1
+LP001030,Approved,Approved,2,Graduate,Male,low,Yes,Urban,No,1
+LP001032,Approved,Approved,0,Graduate,Male,medium,No,Urban,No,1
+LP001036,Rejected,Rejected,0,Graduate,Female,low,No,Urban,No,0
+LP001038,Rejected,Rejected,0,Not Graduate,Male,medium,Yes,Rural,No,1
+LP001043,Rejected,Rejected,0,Not Graduate,Male,medium,Yes,Urban,No,0
+LP001046,Approved,Approved,1,Graduate,Male,medium,Yes,Urban,No,1
+LP001047,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Semiurban,No,0
+LP001066,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,Yes,1
+LP001068,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001073,Approved,Approved,2,Not Graduate,Male,medium,Yes,Urban,No,1
+LP001086,Rejected,Rejected,0,Not Graduate,Male,low,No,Urban,No,1
+LP001095,Rejected,Rejected,0,Graduate,Male,low,No,Urban,No,1
+LP001097,Rejected,Rejected,1,Graduate,Male,medium,No,Rural,Yes,1
+LP001098,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001100,Rejected,Rejected,3+,Graduate,Male,high,No,Rural,No,1
+LP001106,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP001109,Rejected,Rejected,0,Graduate,Male,low,Yes,Urban,No,0
+LP001112,Approved,Approved,0,Graduate,Female,low,Yes,Semiurban,No,1
+LP001114,Approved,Approved,0,Graduate,Male,medium,No,Urban,No,1
+LP001116,Approved,Approved,0,Not Graduate,Male,low,No,Semiurban,No,1
+LP001119,Rejected,Rejected,0,Graduate,Male,low,No,Urban,No,1
+LP001120,Approved,Approved,0,Graduate,Male,low,No,Urban,No,1
+LP001131,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001136,Approved,Approved,0,Not Graduate,Male,medium,Yes,Urban,Yes,1
+LP001137,Approved,Approved,0,Graduate,Female,low,No,Urban,No,1
+LP001138,Approved,Approved,1,Graduate,Male,medium,Yes,Urban,No,1
+LP001144,Approved,Approved,0,Graduate,Male,medium,Yes,Urban,No,1
+LP001146,Rejected,Rejected,0,Graduate,Female,low,Yes,Urban,No,0
+LP001151,Approved,Approved,0,Graduate,Female,medium,No,Semiurban,No,1
+LP001155,Approved,Approved,0,Not Graduate,Female,low,Yes,Semiurban,No,1
+LP001157,Approved,Approved,0,Graduate,Female,low,No,Semiurban,No,1
+LP001164,Rejected,Rejected,0,Graduate,Female,medium,No,Semiurban,No,1
+LP001179,Rejected,Rejected,2,Graduate,Male,medium,Yes,Urban,No,1
+LP001186,Rejected,Rejected,1,Graduate,Female,high,Yes,Urban,Yes,0
+LP001194,Approved,Approved,2,Graduate,Male,low,Yes,Semiurban,No,1
+LP001195,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001197,Rejected,Rejected,0,Graduate,Male,low,Yes,Rural,No,1
+LP001198,Approved,Approved,1,Graduate,Male,medium,Yes,Urban,No,1
+LP001199,Approved,Approved,2,Not Graduate,Male,low,Yes,Urban,No,1
+LP001205,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP001206,Approved,Approved,3+,Graduate,Male,low,Yes,Urban,No,1
+LP001207,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Rural,Yes,0
+LP001213,Rejected,Rejected,1,Graduate,Male,medium,Yes,Rural,No,0
+LP001222,Rejected,Rejected,0,Graduate,Female,medium,No,Semiurban,No,0
+LP001225,Rejected,Rejected,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001228,Rejected,Rejected,0,Not Graduate,Male,low,No,Urban,No,0
+LP001233,Approved,Approved,1,Graduate,Male,high,Yes,Urban,No,1
+LP001238,Approved,Approved,3+,Not Graduate,Male,medium,Yes,Urban,Yes,1
+LP001241,Rejected,Rejected,0,Graduate,Female,medium,No,Semiurban,No,0
+LP001243,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP001245,Approved,Approved,2,Not Graduate,Male,low,Yes,Semiurban,Yes,1
+LP001248,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP001250,Rejected,Rejected,3+,Not Graduate,Male,medium,Yes,Semiurban,No,0
+LP001253,Approved,Approved,3+,Graduate,Male,medium,Yes,Semiurban,Yes,1
+LP001255,Rejected,Rejected,0,Graduate,Male,low,No,Urban,No,1
+LP001256,Rejected,Rejected,0,Graduate,Male,low,No,Urban,No,1
+LP001259,Rejected,Rejected,1,Graduate,Male,low,Yes,Urban,Yes,1
+LP001263,Rejected,Rejected,3+,Graduate,Male,low,Yes,Semiurban,No,0
+LP001265,Approved,Approved,0,Graduate,Female,low,No,Semiurban,No,1
+LP001266,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,Yes,1
+LP001267,Rejected,Rejected,2,Graduate,Female,low,Yes,Urban,No,1
+LP001275,Approved,Approved,1,Graduate,Male,low,Yes,Urban,No,1
+LP001279,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP001282,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001289,Approved,Approved,0,Graduate,Male,medium,No,Urban,No,1
+LP001310,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001316,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001318,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001319,Approved,Approved,2,Not Graduate,Male,low,Yes,Urban,No,1
+LP001322,Approved,Approved,0,Graduate,Male,medium,No,Semiurban,No,1
+LP001325,Approved,Approved,0,Not Graduate,Male,low,No,Semiurban,No,1
+LP001327,Approved,Approved,0,Graduate,Female,low,Yes,Semiurban,No,1
+LP001333,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001334,Approved,Approved,0,Not Graduate,Male,medium,Yes,Semiurban,No,1
+LP001343,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001345,Approved,Approved,2,Not Graduate,Male,medium,Yes,Urban,No,1
+LP001349,Approved,Approved,0,Graduate,Male,medium,No,Semiurban,No,1
+LP001356,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001367,Approved,Approved,1,Graduate,Male,low,Yes,Urban,No,1
+LP001369,Approved,Approved,2,Graduate,Male,high,Yes,Urban,No,1
+LP001379,Rejected,Rejected,2,Graduate,Male,low,Yes,Urban,No,0
+LP001384,Approved,Approved,3+,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP001385,Approved,Approved,0,Graduate,Male,medium,No,Urban,No,1
+LP001391,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Rural,No,0
+LP001392,Approved,Approved,1,Graduate,Female,medium,No,Semiurban,Yes,1
+LP001401,Approved,Approved,1,Graduate,Male,high,Yes,Rural,No,1
+LP001404,Approved,Approved,0,Graduate,Female,low,Yes,Semiurban,No,1
+LP001421,Rejected,Rejected,0,Graduate,Male,medium,Yes,Rural,No,1
+LP001422,Approved,Approved,0,Graduate,Female,high,No,Urban,No,1
+LP001430,Approved,Approved,0,Graduate,Female,medium,No,Semiurban,No,1
+LP001431,Approved,Approved,0,Graduate,Female,low,No,Semiurban,No,0
+LP001432,Approved,Approved,2,Graduate,Male,low,Yes,Semiurban,No,1
+LP001439,Approved,Approved,0,Not Graduate,Male,medium,Yes,Rural,No,1
+LP001449,Approved,Approved,0,Graduate,Male,low,No,Rural,No,1
+LP001451,Rejected,Rejected,1,Graduate,Male,high,Yes,Urban,Yes,0
+LP001473,Approved,Approved,0,Graduate,Male,low,No,Urban,No,1
+LP001478,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP001482,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,Yes,1
+LP001487,Approved,Approved,0,Graduate,Male,medium,No,Semiurban,No,1
+LP001488,Rejected,Rejected,3+,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001489,Rejected,Rejected,0,Graduate,Female,medium,Yes,Rural,No,1
+LP001491,Approved,Approved,2,Graduate,Male,low,Yes,Urban,Yes,1
+LP001492,Rejected,Rejected,0,Graduate,Male,high,No,Semiurban,No,0
+LP001493,Rejected,Rejected,2,Not Graduate,Male,medium,Yes,Rural,No,1
+LP001497,Rejected,Rejected,2,Graduate,Male,medium,Yes,Rural,No,1
+LP001498,Approved,Approved,0,Graduate,Male,medium,No,Urban,No,1
+LP001504,Approved,Approved,0,Graduate,Male,medium,No,Semiurban,Yes,1
+LP001507,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001508,Approved,Approved,2,Graduate,Male,high,Yes,Urban,No,1
+LP001514,Approved,Approved,0,Graduate,Female,low,Yes,Semiurban,No,1
+LP001516,Approved,Approved,2,Graduate,Female,high,Yes,Urban,No,1
+LP001518,Approved,Approved,1,Graduate,Male,low,Yes,Urban,No,1
+LP001519,Rejected,Rejected,0,Graduate,Female,high,No,Rural,No,1
+LP001520,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001528,Rejected,Rejected,0,Graduate,Male,medium,No,Rural,No,0
+LP001529,Approved,Approved,0,Graduate,Male,low,Yes,Rural,Yes,1
+LP001531,Rejected,Rejected,0,Graduate,Male,medium,No,Urban,No,1
+LP001532,Rejected,Rejected,2,Not Graduate,Male,low,Yes,Rural,No,1
+LP001535,Approved,Approved,0,Graduate,Male,low,No,Urban,No,1
+LP001536,Approved,Approved,3+,Graduate,Male,high,Yes,Semiurban,No,0
+LP001543,Approved,Approved,1,Graduate,Male,medium,Yes,Urban,No,1
+LP001552,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001560,Approved,Approved,0,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP001562,Rejected,Rejected,0,Graduate,Male,medium,Yes,Urban,No,1
+LP001565,Rejected,Rejected,1,Graduate,Male,low,Yes,Semiurban,No,0
+LP001570,Approved,Approved,2,Graduate,Male,medium,Yes,Rural,No,1
+LP001572,Approved,Approved,0,Graduate,Male,medium,Yes,Urban,No,1
+LP001574,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP001577,Rejected,Rejected,0,Graduate,Female,medium,Yes,Rural,No,1
+LP001578,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP001579,Rejected,Rejected,0,Graduate,Male,low,No,Semiurban,No,0
+LP001580,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001586,Rejected,Rejected,3+,Not Graduate,Male,low,Yes,Rural,No,1
+LP001594,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001603,Rejected,Rejected,0,Not Graduate,Male,medium,Yes,Semiurban,Yes,1
+LP001606,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP001608,Approved,Approved,2,Graduate,Male,low,Yes,Rural,No,1
+LP001610,Rejected,Rejected,3+,Graduate,Male,medium,Yes,Semiurban,No,0
+LP001616,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,No,1
+LP001630,Rejected,Rejected,0,Not Graduate,Male,low,No,Urban,No,0
+LP001633,Rejected,Rejected,1,Graduate,Male,medium,Yes,Urban,No,0
+LP001636,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001637,Rejected,Rejected,1,Graduate,Male,high,Yes,Semiurban,No,1
+LP001639,Approved,Approved,0,Graduate,Female,low,Yes,Semiurban,No,1
+LP001640,Approved,Approved,0,Graduate,Male,high,Yes,Semiurban,Yes,1
+LP001641,Rejected,Rejected,1,Graduate,Male,low,Yes,Rural,Yes,0
+LP001647,Approved,Approved,0,Graduate,Male,medium,Yes,Rural,No,1
+LP001653,Approved,Approved,0,Not Graduate,Male,medium,No,Rural,No,1
+LP001656,Rejected,Rejected,0,Graduate,Male,high,No,Semiurban,No,1
+LP001657,Rejected,Rejected,0,Not Graduate,Male,medium,Yes,Urban,No,1
+LP001658,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP001664,Approved,Approved,0,Graduate,Male,medium,No,Rural,No,1
+LP001665,Rejected,Rejected,1,Graduate,Male,low,Yes,Semiurban,No,1
+LP001666,Approved,Approved,0,Graduate,Male,medium,No,Rural,No,1
+LP001669,Approved,Approved,0,Not Graduate,Female,low,No,Urban,No,1
+LP001673,Rejected,Rejected,0,Graduate,Male,high,No,Urban,Yes,1
+LP001674,Approved,Approved,1,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP001677,Approved,Approved,2,Graduate,Male,medium,No,Semiurban,No,0
+LP001682,Rejected,Rejected,3+,Not Graduate,Male,low,Yes,Urban,No,1
+LP001688,Approved,Approved,1,Not Graduate,Male,low,Yes,Urban,No,1
+LP001691,Approved,Approved,2,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP001692,Approved,Approved,0,Not Graduate,Female,medium,No,Semiurban,No,1
+LP001693,Approved,Approved,0,Graduate,Female,low,No,Urban,No,1
+LP001698,Approved,Approved,0,Not Graduate,Male,low,No,Rural,No,1
+LP001699,Approved,Approved,0,Graduate,Male,low,No,Urban,No,1
+LP001702,Rejected,Rejected,0,Graduate,Male,low,No,Semiurban,No,1
+LP001708,Rejected,Rejected,0,Graduate,Female,high,No,Semiurban,No,1
+LP001711,Rejected,Rejected,3+,Graduate,Male,low,Yes,Semiurban,No,0
+LP001713,Approved,Approved,1,Graduate,Male,medium,Yes,Urban,Yes,1
+LP001715,Approved,Approved,3+,Not Graduate,Male,medium,Yes,Rural,Yes,1
+LP001716,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP001720,Approved,Approved,3+,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP001722,Rejected,Rejected,0,Graduate,Male,low,Yes,Rural,No,1
+LP001726,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001736,Rejected,Rejected,0,Graduate,Male,low,Yes,Urban,No,0
+LP001743,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001744,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP001749,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001750,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001751,Rejected,Rejected,0,Graduate,Male,low,Yes,Rural,No,1
+LP001758,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001761,Approved,Approved,0,Graduate,Male,medium,No,Rural,Yes,1
+LP001765,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,No,1
+LP001770,Approved,Approved,0,Not Graduate,Male,low,No,Rural,No,1
+LP001776,Approved,Approved,0,Graduate,Female,medium,No,Semiurban,No,1
+LP001778,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,No,1
+LP001784,Approved,Approved,1,Graduate,Male,medium,Yes,Rural,No,1
+LP001790,Approved,Approved,1,Graduate,Female,low,No,Rural,No,1
+LP001792,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,No,1
+LP001798,Approved,Approved,2,Graduate,Male,medium,Yes,Rural,No,1
+LP001800,Rejected,Rejected,1,Not Graduate,Male,low,Yes,Urban,No,1
+LP001806,Approved,Approved,0,Graduate,Male,low,No,Urban,No,1
+LP001807,Approved,Approved,2,Graduate,Male,medium,Yes,Rural,Yes,1
+LP001811,Approved,Approved,0,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP001813,Rejected,Rejected,0,Graduate,Male,medium,No,Urban,Yes,1
+LP001814,Approved,Approved,2,Graduate,Male,medium,Yes,Urban,No,1
+LP001819,Approved,Approved,1,Not Graduate,Male,medium,Yes,Urban,No,1
+LP001824,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,No,1
+LP001825,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP001835,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Semiurban,No,0
+LP001836,Rejected,Rejected,2,Graduate,Female,low,No,Urban,No,1
+LP001841,Approved,Approved,0,Not Graduate,Male,low,No,Rural,Yes,1
+LP001843,Approved,Approved,1,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP001844,Rejected,Rejected,0,Graduate,Male,high,No,Urban,Yes,0
+LP001846,Approved,Approved,3+,Graduate,Female,low,No,Rural,No,1
+LP001849,Rejected,Rejected,0,Not Graduate,Male,medium,No,Rural,No,0
+LP001854,Rejected,Rejected,3+,Graduate,Male,medium,Yes,Urban,No,1
+LP001859,Rejected,Rejected,0,Graduate,Male,high,Yes,Rural,No,1
+LP001868,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP001870,Rejected,Rejected,1,Graduate,Female,low,No,Semiurban,No,1
+LP001871,Approved,Approved,0,Graduate,Female,medium,No,Rural,No,1
+LP001872,Approved,Approved,0,Graduate,Male,medium,No,Semiurban,Yes,1
+LP001875,Approved,Approved,0,Graduate,Male,medium,No,Rural,No,1
+LP001877,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001882,Approved,Approved,3+,Graduate,Male,medium,Yes,Urban,No,0
+LP001884,Approved,Approved,1,Graduate,Female,low,No,Urban,No,1
+LP001888,Approved,Approved,0,Graduate,Female,low,No,Urban,No,1
+LP001891,Approved,Approved,0,Graduate,Male,high,Yes,Urban,No,1
+LP001892,Approved,Approved,0,Graduate,Male,low,No,Rural,No,1
+LP001894,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001896,Approved,Approved,2,Graduate,Male,low,Yes,Semiurban,No,1
+LP001900,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,No,1
+LP001903,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001904,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP001907,Approved,Approved,0,Graduate,Male,high,Yes,Semiurban,No,1
+LP001910,Rejected,Rejected,1,Not Graduate,Male,medium,No,Urban,Yes,0
+LP001914,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001915,Approved,Approved,2,Graduate,Male,low,Yes,Urban,No,1
+LP001917,Approved,Approved,0,Graduate,Female,low,No,Urban,No,1
+LP001922,Rejected,Rejected,0,Graduate,Male,high,Yes,Rural,No,1
+LP001924,Approved,Approved,0,Graduate,Male,low,No,Rural,No,1
+LP001925,Rejected,Rejected,0,Graduate,Female,low,No,Semiurban,Yes,1
+LP001926,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP001931,Approved,Approved,0,Graduate,Female,medium,No,Semiurban,No,1
+LP001935,Approved,Approved,0,Graduate,Male,medium,No,Rural,No,1
+LP001936,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP001938,Rejected,Rejected,2,Graduate,Male,medium,Yes,Semiurban,No,0
+LP001940,Approved,Approved,2,Graduate,Male,low,Yes,Urban,No,1
+LP001947,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP001953,Approved,Approved,1,Graduate,Male,medium,Yes,Semiurban,No,1
+LP001954,Approved,Approved,1,Graduate,Female,medium,Yes,Urban,No,1
+LP001955,Rejected,Rejected,0,Graduate,Female,medium,No,Rural,No,1
+LP001963,Rejected,Rejected,1,Graduate,Male,low,Yes,Urban,No,1
+LP001964,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Urban,No,0
+LP001974,Approved,Approved,0,Graduate,Female,medium,No,Rural,No,1
+LP001977,Approved,Approved,1,Graduate,Male,low,Yes,Urban,No,1
+LP001978,Approved,Approved,0,Graduate,Male,medium,No,Rural,No,1
+LP001990,Rejected,Rejected,0,Not Graduate,Male,low,No,Urban,No,1
+LP001993,Approved,Approved,0,Graduate,Female,low,No,Rural,No,1
+LP001994,Rejected,Rejected,0,Graduate,Female,low,No,Urban,No,0
+LP001996,Rejected,Rejected,0,Graduate,Male,high,No,Rural,No,1
+LP002002,Approved,Approved,0,Graduate,Female,low,No,Semiurban,No,1
+LP002004,Approved,Approved,0,Not Graduate,Male,low,No,Semiurban,No,1
+LP002006,Approved,Approved,0,Graduate,Female,low,No,Rural,No,1
+LP002031,Approved,Approved,1,Not Graduate,Male,low,Yes,Urban,No,1
+LP002035,Approved,Approved,2,Graduate,Male,low,Yes,Semiurban,No,1
+LP002050,Rejected,Rejected,1,Graduate,Male,high,Yes,Rural,Yes,1
+LP002051,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002053,Approved,Approved,3+,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002054,Approved,Approved,2,Not Graduate,Male,low,Yes,Rural,No,1
+LP002065,Approved,Approved,3+,Graduate,Male,high,Yes,Rural,No,1
+LP002067,Rejected,Rejected,1,Graduate,Male,medium,Yes,Rural,Yes,0
+LP002068,Approved,Approved,0,Graduate,Male,medium,No,Rural,No,0
+LP002082,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,Yes,1
+LP002086,Rejected,Rejected,0,Graduate,Female,medium,Yes,Urban,No,1
+LP002087,Approved,Approved,0,Graduate,Female,low,No,Urban,No,1
+LP002097,Approved,Approved,1,Graduate,Male,medium,No,Urban,No,1
+LP002098,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP002112,Approved,Approved,2,Graduate,Male,low,Yes,Rural,Yes,1
+LP002113,Rejected,Rejected,3+,Not Graduate,Female,low,No,Urban,No,0
+LP002114,Approved,Approved,0,Graduate,Female,medium,No,Semiurban,No,1
+LP002115,Rejected,Rejected,3+,Not Graduate,Male,low,Yes,Rural,No,1
+LP002116,Rejected,Rejected,0,Graduate,Female,low,No,Rural,No,1
+LP002119,Approved,Approved,1,Not Graduate,Male,medium,Yes,Urban,No,1
+LP002126,Approved,Approved,3+,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP002129,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002131,Approved,Approved,2,Not Graduate,Male,low,Yes,Urban,No,1
+LP002138,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002139,Approved,Approved,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002140,Rejected,Rejected,0,Graduate,Male,medium,No,Rural,No,1
+LP002141,Approved,Approved,3+,Graduate,Male,low,Yes,Rural,No,1
+LP002142,Rejected,Rejected,0,Graduate,Female,medium,Yes,Rural,Yes,0
+LP002143,Approved,Approved,0,Graduate,Female,low,Yes,Semiurban,No,1
+LP002149,Approved,Approved,2,Graduate,Male,medium,Yes,Rural,No,1
+LP002151,Rejected,Rejected,1,Graduate,Male,low,Yes,Urban,No,1
+LP002158,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Urban,No,0
+LP002160,Approved,Approved,3+,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002161,Rejected,Rejected,1,Graduate,Female,medium,No,Semiurban,No,1
+LP002170,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002175,Approved,Approved,0,Graduate,Male,medium,Yes,Urban,No,1
+LP002180,Approved,Approved,0,Graduate,Male,medium,No,Rural,Yes,1
+LP002181,Rejected,Rejected,0,Not Graduate,Male,medium,No,Rural,No,1
+LP002187,Rejected,Rejected,0,Graduate,Male,low,No,Semiurban,No,1
+LP002188,Rejected,Rejected,0,Graduate,Male,medium,No,Rural,No,0
+LP002190,Approved,Approved,1,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002191,Rejected,Rejected,0,Graduate,Male,high,Yes,Rural,No,1
+LP002194,Approved,Approved,0,Graduate,Female,high,No,Semiurban,Yes,1
+LP002197,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002201,Approved,Approved,2,Graduate,Male,medium,Yes,Rural,Yes,1
+LP002205,Rejected,Rejected,1,Graduate,Male,low,No,Urban,No,0
+LP002211,Approved,Approved,0,Graduate,Male,medium,Yes,Urban,No,1
+LP002219,Approved,Approved,3+,Graduate,Male,medium,Yes,Rural,No,1
+LP002224,Rejected,Rejected,0,Graduate,Male,low,No,Urban,No,1
+LP002225,Approved,Approved,2,Graduate,Male,medium,Yes,Urban,No,1
+LP002229,Approved,Approved,0,Graduate,Male,medium,No,Semiurban,No,1
+LP002231,Approved,Approved,0,Graduate,Female,medium,No,Urban,No,1
+LP002234,Approved,Approved,0,Graduate,Male,medium,No,Urban,Yes,1
+LP002236,Rejected,Rejected,2,Graduate,Male,medium,Yes,Urban,No,1
+LP002239,Approved,Approved,0,Not Graduate,Male,low,No,Semiurban,No,1
+LP002243,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Urban,No,0
+LP002244,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP002250,Approved,Approved,0,Graduate,Male,medium,Yes,Rural,No,1
+LP002255,Approved,Approved,3+,Graduate,Male,medium,No,Rural,No,1
+LP002262,Approved,Approved,3+,Graduate,Male,medium,Yes,Rural,No,1
+LP002265,Approved,Approved,2,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP002266,Approved,Approved,2,Graduate,Male,low,Yes,Urban,No,1
+LP002277,Rejected,Rejected,0,Graduate,Female,low,No,Urban,No,0
+LP002281,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP002284,Approved,Approved,0,Not Graduate,Male,low,No,Rural,No,1
+LP002287,Rejected,Rejected,0,Graduate,Female,low,No,Semiurban,No,0
+LP002288,Rejected,Rejected,2,Not Graduate,Male,low,Yes,Urban,No,0
+LP002296,Rejected,Rejected,0,Not Graduate,Male,low,No,Rural,No,1
+LP002297,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP002300,Approved,Approved,0,Not Graduate,Female,low,No,Semiurban,No,1
+LP002301,Rejected,Rejected,0,Graduate,Female,medium,No,Rural,Yes,1
+LP002305,Approved,Approved,0,Graduate,Female,medium,No,Semiurban,No,1
+LP002308,Approved,Approved,0,Not Graduate,Male,low,Yes,Urban,No,1
+LP002314,Approved,Approved,0,Not Graduate,Female,low,No,Rural,No,1
+LP002315,Rejected,Rejected,1,Graduate,Male,medium,Yes,Semiurban,No,0
+LP002317,Rejected,Rejected,3+,Graduate,Male,high,Yes,Rural,No,0
+LP002318,Rejected,Rejected,1,Not Graduate,Female,low,No,Semiurban,Yes,1
+LP002328,Rejected,Rejected,0,Not Graduate,Male,medium,Yes,Rural,No,0
+LP002332,Approved,Approved,0,Not Graduate,Male,low,Yes,Rural,No,1
+LP002335,Rejected,Rejected,0,Not Graduate,Female,low,Yes,Semiurban,No,0
+LP002337,Approved,Approved,0,Graduate,Female,low,No,Urban,No,1
+LP002341,Rejected,Rejected,1,Graduate,Female,low,No,Urban,No,1
+LP002342,Rejected,Rejected,2,Graduate,Male,low,Yes,Urban,Yes,1
+LP002345,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002347,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002348,Approved,Approved,0,Graduate,Male,medium,Yes,Rural,No,1
+LP002357,Rejected,Rejected,0,Not Graduate,Female,low,No,Urban,No,0
+LP002361,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP002362,Rejected,Rejected,1,Graduate,Male,medium,Yes,Urban,No,0
+LP002364,Approved,Approved,0,Graduate,Male,high,Yes,Semiurban,No,1
+LP002366,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002367,Rejected,Rejected,1,Not Graduate,Female,medium,No,Rural,No,1
+LP002368,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002369,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002370,Approved,Approved,0,Not Graduate,Male,low,No,Urban,No,1
+LP002377,Approved,Approved,1,Graduate,Female,medium,No,Semiurban,Yes,1
+LP002379,Rejected,Rejected,0,Graduate,Male,medium,No,Rural,No,0
+LP002387,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002390,Approved,Approved,0,Graduate,Male,low,No,Urban,No,1
+LP002398,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP002401,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP002403,Rejected,Rejected,0,Graduate,Male,high,No,Urban,Yes,0
+LP002407,Approved,Approved,0,Not Graduate,Female,medium,Yes,Rural,Yes,1
+LP002408,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP002409,Approved,Approved,0,Graduate,Male,medium,Yes,Rural,No,1
+LP002418,Approved,Approved,3+,Not Graduate,Male,medium,No,Semiurban,No,1
+LP002422,Approved,Approved,1,Graduate,Male,high,No,Semiurban,No,1
+LP002429,Approved,Approved,1,Graduate,Male,low,Yes,Rural,Yes,1
+LP002434,Approved,Approved,2,Not Graduate,Male,medium,Yes,Rural,No,1
+LP002443,Rejected,Rejected,2,Graduate,Male,low,Yes,Rural,No,0
+LP002446,Rejected,Rejected,2,Not Graduate,Male,low,Yes,Rural,No,0
+LP002448,Rejected,Rejected,0,Graduate,Male,low,Yes,Rural,No,0
+LP002449,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,0
+LP002453,Approved,Approved,0,Graduate,Male,medium,No,Semiurban,Yes,1
+LP002455,Approved,Approved,2,Graduate,Male,low,Yes,Semiurban,No,1
+LP002459,Approved,Approved,0,Graduate,Male,medium,Yes,Urban,No,1
+LP002467,Rejected,Rejected,0,Graduate,Male,low,Yes,Urban,No,1
+LP002472,Approved,Approved,2,Graduate,Male,medium,No,Rural,No,1
+LP002473,Rejected,Rejected,0,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002484,Approved,Approved,3+,Graduate,Male,medium,Yes,Urban,No,1
+LP002487,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002493,Rejected,Rejected,0,Graduate,Male,medium,No,Semiurban,No,0
+LP002494,Approved,Approved,0,Graduate,Male,medium,No,Rural,No,1
+LP002500,Rejected,Rejected,3+,Not Graduate,Male,low,Yes,Urban,No,0
+LP002505,Rejected,Rejected,0,Graduate,Male,medium,Yes,Urban,No,1
+LP002515,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,Yes,1
+LP002517,Rejected,Rejected,1,Not Graduate,Male,low,Yes,Rural,No,0
+LP002519,Approved,Approved,3+,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002524,Approved,Approved,2,Graduate,Male,medium,No,Rural,No,1
+LP002527,Approved,Approved,2,Graduate,Male,high,Yes,Rural,Yes,1
+LP002529,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002531,Approved,Approved,1,Graduate,Male,high,Yes,Semiurban,Yes,1
+LP002533,Rejected,Rejected,2,Graduate,Male,low,Yes,Urban,No,1
+LP002534,Approved,Approved,0,Not Graduate,Female,medium,No,Rural,No,1
+LP002536,Approved,Approved,3+,Not Graduate,Male,low,Yes,Rural,No,1
+LP002537,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002541,Approved,Approved,0,Graduate,Male,high,Yes,Semiurban,No,1
+LP002543,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002544,Approved,Approved,1,Not Graduate,Male,low,Yes,Rural,No,1
+LP002545,Rejected,Rejected,2,Graduate,Male,low,No,Rural,No,0
+LP002547,Rejected,Rejected,1,Graduate,Male,high,Yes,Urban,No,1
+LP002555,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,Yes,1
+LP002556,Rejected,Rejected,0,Graduate,Male,low,No,Urban,No,1
+LP002571,Approved,Approved,0,Not Graduate,Male,low,No,Rural,No,1
+LP002582,Approved,Approved,0,Not Graduate,Female,high,No,Semiurban,Yes,1
+LP002585,Rejected,Rejected,0,Graduate,Male,low,Yes,Rural,No,0
+LP002586,Approved,Approved,1,Graduate,Female,low,Yes,Semiurban,No,1
+LP002587,Approved,Approved,0,Not Graduate,Male,low,Yes,Rural,No,1
+LP002600,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,Yes,1
+LP002602,Rejected,Rejected,0,Graduate,Male,medium,No,Rural,No,0
+LP002603,Approved,Approved,0,Graduate,Female,low,No,Rural,No,1
+LP002606,Approved,Approved,0,Graduate,Female,low,No,Semiurban,No,1
+LP002615,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002619,Approved,Approved,0,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP002622,Approved,Approved,2,Graduate,Male,low,Yes,Rural,No,1
+LP002626,Approved,Approved,0,Graduate,Male,low,Yes,Urban,Yes,1
+LP002634,Approved,Approved,1,Graduate,Female,high,No,Urban,No,1
+LP002637,Rejected,Rejected,0,Not Graduate,Male,low,No,Rural,No,1
+LP002640,Approved,Approved,1,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002643,Approved,Approved,2,Graduate,Male,low,Yes,Urban,No,1
+LP002648,Rejected,Rejected,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002652,Rejected,Rejected,0,Graduate,Male,medium,No,Rural,No,1
+LP002659,Approved,Approved,3+,Graduate,Male,low,Yes,Rural,No,1
+LP002670,Approved,Approved,2,Graduate,Female,low,Yes,Semiurban,No,1
+LP002683,Rejected,Rejected,0,Graduate,Male,medium,No,Semiurban,No,1
+LP002684,Rejected,Rejected,0,Not Graduate,Female,low,No,Rural,No,1
+LP002689,Approved,Approved,2,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP002690,Approved,Approved,0,Graduate,Male,low,No,Semiurban,No,1
+LP002692,Approved,Approved,3+,Graduate,Male,medium,Yes,Rural,Yes,1
+LP002693,Approved,Approved,2,Graduate,Male,medium,Yes,Rural,Yes,1
+LP002697,Rejected,Rejected,0,Graduate,Male,medium,No,Semiurban,No,1
+LP002699,Approved,Approved,2,Graduate,Male,high,Yes,Rural,Yes,1
+LP002705,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002706,Approved,Approved,1,Not Graduate,Male,medium,Yes,Semiurban,No,0
+LP002714,Approved,Approved,1,Not Graduate,Male,low,No,Semiurban,No,1
+LP002716,Approved,Approved,0,Not Graduate,Male,medium,No,Semiurban,No,1
+LP002720,Approved,Approved,3+,Graduate,Male,medium,Yes,Urban,No,1
+LP002723,Rejected,Rejected,2,Graduate,Male,low,No,Rural,No,0
+LP002731,Approved,Approved,0,Not Graduate,Female,high,No,Urban,Yes,1
+LP002734,Approved,Approved,0,Graduate,Male,medium,Yes,Urban,No,1
+LP002738,Approved,Approved,2,Graduate,Male,low,No,Semiurban,No,1
+LP002739,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Rural,No,1
+LP002740,Approved,Approved,3+,Graduate,Male,medium,Yes,Rural,No,1
+LP002741,Approved,Approved,1,Graduate,Female,medium,Yes,Semiurban,No,1
+LP002743,Rejected,Rejected,0,Graduate,Female,low,No,Semiurban,No,0
+LP002755,Approved,Approved,1,Not Graduate,Male,low,Yes,Urban,No,1
+LP002767,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002768,Rejected,Rejected,0,Not Graduate,Male,low,No,Semiurban,No,1
+LP002772,Approved,Approved,0,Graduate,Male,low,No,Rural,No,1
+LP002776,Rejected,Rejected,0,Graduate,Female,medium,No,Semiurban,No,0
+LP002777,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002778,Rejected,Rejected,2,Graduate,Male,medium,Yes,Rural,Yes,0
+LP002784,Approved,Approved,1,Not Graduate,Male,low,Yes,Rural,No,1
+LP002785,Approved,Approved,1,Graduate,Male,low,Yes,Urban,No,1
+LP002788,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Urban,No,0
+LP002789,Rejected,Rejected,0,Graduate,Male,low,Yes,Rural,No,0
+LP002792,Approved,Approved,1,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002795,Approved,Approved,3+,Graduate,Male,high,Yes,Semiurban,Yes,1
+LP002798,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002804,Approved,Approved,0,Graduate,Female,medium,Yes,Semiurban,No,1
+LP002807,Approved,Approved,2,Not Graduate,Male,low,Yes,Semiurban,No,1
+LP002813,Approved,Approved,1,Graduate,Female,high,Yes,Semiurban,Yes,1
+LP002820,Approved,Approved,0,Graduate,Male,medium,Yes,Rural,No,1
+LP002821,Approved,Approved,0,Not Graduate,Male,medium,No,Semiurban,Yes,1
+LP002832,Rejected,Rejected,2,Graduate,Male,medium,Yes,Urban,No,0
+LP002836,Approved,Approved,0,Graduate,Male,low,No,Urban,No,1
+LP002837,Rejected,Rejected,3+,Graduate,Male,low,Yes,Rural,No,0
+LP002840,Rejected,Rejected,0,Graduate,Female,low,No,Urban,No,1
+LP002841,Rejected,Rejected,0,Graduate,Male,low,Yes,Urban,No,0
+LP002842,Approved,Approved,1,Graduate,Male,low,Yes,Urban,No,1
+LP002855,Approved,Approved,2,Graduate,Male,high,Yes,Urban,No,1
+LP002862,Rejected,Rejected,2,Not Graduate,Male,medium,Yes,Semiurban,No,1
+LP002863,Rejected,Rejected,3+,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002868,Approved,Approved,2,Graduate,Male,low,Yes,Urban,No,1
+LP002874,Approved,Approved,0,Graduate,Male,low,No,Urban,No,1
+LP002877,Approved,Approved,1,Graduate,Male,low,Yes,Rural,No,1
+LP002892,Approved,Approved,2,Graduate,Male,medium,Yes,Semiurban,No,1
+LP002893,Rejected,Rejected,0,Graduate,Male,low,No,Urban,No,1
+LP002894,Approved,Approved,0,Graduate,Female,low,Yes,Semiurban,No,1
+LP002911,Rejected,Rejected,1,Graduate,Male,low,Yes,Rural,No,0
+LP002912,Rejected,Rejected,1,Graduate,Male,medium,Yes,Rural,No,1
+LP002916,Approved,Approved,0,Graduate,Male,low,Yes,Urban,No,1
+LP002917,Approved,Approved,0,Not Graduate,Female,low,No,Semiurban,No,1
+LP002926,Rejected,Rejected,2,Graduate,Male,low,Yes,Semiurban,Yes,0
+LP002928,Approved,Approved,0,Graduate,Male,low,Yes,Semiurban,No,1
+LP002931,Rejected,Rejected,2,Graduate,Male,medium,Yes,Semiurban,Yes,1
+LP002936,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002938,Approved,Approved,0,Graduate,Male,high,Yes,Urban,Yes,1
+LP002940,Approved,Approved,0,Not Graduate,Male,low,No,Rural,No,1
+LP002941,Rejected,Rejected,2,Not Graduate,Male,medium,Yes,Rural,Yes,1
+LP002945,Approved,Approved,0,Graduate,Male,medium,Yes,Rural,Yes,1
+LP002948,Approved,Approved,2,Graduate,Male,medium,Yes,Urban,No,1
+LP002953,Approved,Approved,3+,Graduate,Male,medium,Yes,Urban,No,1
+LP002958,Approved,Approved,0,Graduate,Male,low,No,Rural,No,1
+LP002959,Approved,Approved,1,Graduate,Female,high,Yes,Semiurban,No,1
+LP002960,Rejected,Rejected,0,Not Graduate,Male,low,Yes,Urban,No,1
+LP002961,Approved,Approved,1,Graduate,Male,low,Yes,Semiurban,No,1
+LP002964,Approved,Approved,2,Not Graduate,Male,low,Yes,Rural,No,1
+LP002974,Approved,Approved,0,Graduate,Male,low,Yes,Rural,No,1
+LP002978,Approved,Approved,0,Graduate,Female,low,No,Rural,No,1
+LP002979,Approved,Approved,3+,Graduate,Male,medium,Yes,Rural,No,1
+LP002983,Approved,Approved,1,Graduate,Male,medium,Yes,Urban,No,1
+LP002984,Approved,Approved,2,Graduate,Male,medium,Yes,Urban,No,1
+LP002990,Rejected,Rejected,0,Graduate,Female,medium,No,Semiurban,Yes,0
