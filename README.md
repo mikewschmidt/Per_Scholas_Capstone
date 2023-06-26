@@ -1,7 +1,7 @@
 # Data Engineering capstone project for Per Scholas 
 
 ### Overview
-Created a data pipeline to extract the data from data files and an API end-point, transform the data, and load it into a remote database.
+Created a data pipeline to extract the data from data files and an API end-point, transform the data, and load it into a remote database. Then I created a Python terminal application to interact with the data. Finally, the data is visualized.
 The data is mock data for banks, customers, credit card transactions, and loan application data.
 
 ![dataflow diagram](https://github.com/mikewschmidt/Per_Scholas_Capstone/blob/master/data_files/workflow_diagram.jpg)
@@ -37,7 +37,7 @@ The data is mock data for banks, customers, credit card transactions, and loan a
 5. Data Analysis and Visualization
    - Charts and graphs for the data files
    - Charts and graphs for loan API data
-   - Created Visualizations in Tableau
+   - Created Visualizations in Tableau ([see the PDF screenshots](https://github.com/mikewschmidt/Per_Scholas_Capstone/blob/master/data_files/Per_Scholas_Capstone_visualizations_story.pdf))
    
 ### Technologies
 The following technologies were used for this project:
