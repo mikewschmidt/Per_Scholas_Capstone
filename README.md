@@ -37,7 +37,7 @@ The data is mock data for banks, customers, credit card transactions, and loan a
 5. Data Analysis and Visualization
    - Charts and graphs for the data files
    - Charts and graphs for loan API data
-   - Created Visualizations in Tableau ([see the PDF screenshots](https://github.com/mikewschmidt/Per_Scholas_Capstone/blob/master/data_files/Per_Scholas_Capstone_visualizations_story.pdf))
+   - Created Visualizations in Tableau ([See on Tableau Public](https://public.tableau.com/app/profile/mikewschmidt/viz/Per_Scholas_Capstone/Story1?publish=yes) or [see the PDF screenshots](https://github.com/mikewschmidt/Per_Scholas_Capstone/blob/master/data_files/Per_Scholas_Capstone_visualizations_story.pdf))
    
 ### Technologies
 The following technologies were used for this project:
