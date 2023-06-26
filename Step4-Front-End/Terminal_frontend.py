@@ -72,8 +72,9 @@ def get_trans_type():
                 user_input = 'q'
 
             case _:
-                user_input = ""
+                os.system('cls')
                 print_bad_response(user_input)
+                continue
         return user_input
 
 
