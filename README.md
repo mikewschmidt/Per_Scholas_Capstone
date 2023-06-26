@@ -4,6 +4,8 @@
 Created a data pipeline to extract the data from data files and an API end-point, transform the data, and load it into a remote database. Then I created a Python terminal application to interact with the data. Finally, the data is visualized.
 The data is mock data for banks, customers, credit card transactions, and loan application data.
 
+Detailed tracking of the projects requirements can be found: [here on my google drive](https://docs.google.com/spreadsheets/d/107yUOS-0e_Z6i2piJ25om_abbYi23cZtRSKNqaF7jXc)
+
 ![dataflow diagram](https://github.com/mikewschmidt/Per_Scholas_Capstone/blob/master/data_files/workflow_diagram.jpg)
 
 ### Raw data used
