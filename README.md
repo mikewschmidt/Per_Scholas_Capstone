@@ -44,7 +44,7 @@ The following technologies were used for this project:
    - GitHub
    - Visual Studio Code
    - Python
-      - Libraries: pandas, pyspark, requests, tabulate, matplotlib, folium, mariadb, tabulate
+      - Libraries: pandas, pyspark, requests, tabulate, matplotlib, folium, mariadb, SQLAlchemy, tabulate
    - SQL
    - MariaDB
    - Jupyter Notebook
