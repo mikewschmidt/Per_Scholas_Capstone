@@ -4,6 +4,8 @@
 Created a data pipeline to extract the data from data files and an API end-point, transform the data, and load it into a remote database.
 The data is mock data for banks, customers, credit card transactions, and loan application data.
 
+![dataflow diagram](https://github.com/mikewschmidt/Per_Scholas_Capstone/blob/master/data_files/workflow_diagram.jpg)
+
 ### Raw data used
 
 [3 json files](https://drive.google.com/drive/folders/1J4a2UndLvVWszHAL2VxJeVXyAHm3xYIp?usp=sharing)
