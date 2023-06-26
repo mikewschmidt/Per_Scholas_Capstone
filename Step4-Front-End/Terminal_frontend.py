@@ -31,7 +31,7 @@ def get_str_input(info, length):
 
 
 def get_trans_type():
-    os.system('clear')
+    os.system('cls')
     user_input = ""
     while user_input != "q":
         print("------------------------------------")
@@ -117,11 +117,11 @@ def query_db(query, printable=True, transpose=False):
 
 
 def update_cust_db(ssn):
-    os.system('clear')
+    os.system('cls')
     user_input = ""
 
     while user_input != 'q':
-        os.system('clear')
+        os.system('cls')
         print("One moment....Querying data")
         results = query_db(f"SELECT first_name, middle_name, last_name, credit_card_no, full_street_address, \
                         cust_city, cust_state, cust_country, cust_zip, cust_phone, cust_email \
@@ -130,7 +130,7 @@ def update_cust_db(ssn):
 
         # print("Results dataframe: \n", results)
         # time.sleep(2)
-        os.system('clear')
+        os.system('cls')
         print("=======================================================")
         print("WHICH ITEM DO YOU WANT TO MODIFY? ('q' to quit)")
         print("=======================================================\n")
@@ -194,7 +194,7 @@ def update_cust_db(ssn):
             pass
 
             # Clear screen because exiting this function (update_cust_db)
-    os.system('clear')
+    os.system('cls')
 
 
 def generate_bill():
@@ -215,7 +215,7 @@ def generate_bill():
                             AND SUBSTR(timeid, 1, 4) = {year} \
                             AND SUBSTR(timeid, 5, 2) = {month}", False)
     if trans_df is None:
-        os.system('clear')
+        os.system('cls')
         print(
             f"Could not find infomation on {year}/{month} for Credit Card #: {cc_num}")
         print("Please try again.")
@@ -236,7 +236,7 @@ def generate_bill():
     def offset(l_var):
         return (width-len("".join(l_var)))//2
 
-    os.system('clear')
+    os.system('cls')
 
     print()
     print("="*width)
@@ -268,7 +268,7 @@ def print_bad_response(user_input):
 
 
 def main():
-    os.system('clear')
+    os.system('cls')
     # Display menu
     user_input = ""
     while user_input != "q":
@@ -322,7 +322,7 @@ def main():
             # display the total number and total values of transactions for branches in a given state.
             case '3':
                 state = get_str_input('State', 2)
-                os.system('clear')
+                os.system('cls')
                 print("="*61)
                 print("="*20, f"TOTAL FOR ALL OF {state}", "="*20)
                 print("="*61)
@@ -394,7 +394,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    os.system('clear')
+    os.system('cls')
     print(">"*60)
     print("\nExiting the Credit Card Terminal program. Thank you!\n")
     print(">"*60)
