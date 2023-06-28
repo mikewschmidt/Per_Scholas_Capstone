@@ -11,5 +11,3 @@ seaborn
 folium
 tabulate
 requests
-time
-datetime
